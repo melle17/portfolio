@@ -15,7 +15,7 @@ const projectVariant = {
   visible: { opacity: 1, scale: 1 },
 };
 
-const Project = ({ title }) => {
+const Project = ({ title, desc }) => {
   const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
     bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`;
   const projectTitle = title.split(" ").join("-").toLowerCase();
@@ -25,8 +25,7 @@ const Project = ({ title }) => {
       <div className={overlayStyles}>
         <p className="text-2xl font-playfair">{title}</p>
         <p className="mt-7">
-          Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla
-          porttitor accumsan tincidunt.
+          {desc}
         </p>
       </div>
       <img src={`assets/${projectTitle}.png`} alt={projectTitle} />
@@ -79,17 +78,24 @@ const Projects = () => {
           >
             ATTENTION TO DETAILS
           </div>
-          <Project title="Storii" />
-          <Project title="Storii 2" />
+          <Project title="Storii" 
+            desc={"This is episode 7 with Viet Anh and Ha Anh Tuan. Again, I was very happy to work with their beautiful songs."} />
+          <Project title="Storii 2" 
+            desc={"Episode 5 of the series. This time, we have Suboi and Ha Tran - a truly unique combination."}/>
 
           {/* ROW 2 */}
-          <Project title="Storii Wild Life" />
-          <Project title="High Kick" />
-          <Project title="Mau Co Ua" />
+          <Project title="Storii Wild Life" 
+            desc={"I was the only translator of the whole series. This was a beautiful program aiming to raise people's awareness."}/>
+          <Project title="High Kick" 
+            desc={"One of the many shows I was a part of. Dealing with this series was a pleasure."}/>
+          <Project title="Mau Co Ua" 
+            desc={"One of my favorite works so far. Doing subtitles for this film was truly an honor."}/>
 
           {/* ROW 3 */}
-          <Project title="Sing Your Dream" />
-          <Project title="Viet Success" />
+          <Project title="Sing Your Dream" 
+            desc={"This show has a great purpose and being a part of it was something I can't forget."}/>
+          <Project title="Viet Success" 
+            desc={"The channel is about the economy and it had given me quite a lot of knowledge of the field."}/>
           <div
             className="flex justify-center text-center items-center p-10 bg-blue
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold rounded-sm"
