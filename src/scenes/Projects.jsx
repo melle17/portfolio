@@ -28,7 +28,7 @@ const Project = ({ title, desc }) => {
           {desc}
         </p>
       </div>
-      <img src={`assets/${projectTitle}.png`} alt={projectTitle} />
+      <img src={`assets/${projectTitle}.png`} alt={projectTitle} className="h-full"/>
     </motion.div>
   );
 };
@@ -74,7 +74,7 @@ const Projects = () => {
           {/* ROW 1 */}
           <div
             className="flex justify-center text-center items-center p-10 bg-navy
-              max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold rounded-sm"
+              max-w-[600px] max-h-[400px] text-2xl font-playfair font-semibold rounded-sm"
           >
             ATTENTION TO DETAILS
           </div>
@@ -98,7 +98,7 @@ const Projects = () => {
             desc={"The channel is about the economy and it had given me quite a lot of knowledge of the field."}/>
           <div
             className="flex justify-center text-center items-center p-10 bg-blue
-              max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold rounded-sm"
+              max-w-[600px] max-h-[400px] text-2xl font-playfair font-semibold rounded-sm"
           >
             SMOOTH MEANING DELIVERY
           </div>
