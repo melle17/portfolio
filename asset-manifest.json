@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/thaole/static/css/main.ab84df86.css",
+    "main.js": "/thaole/static/js/main.9b509b7c.js",
+    "static/media/person-3.png": "/thaole/static/media/person-3.5dd0b714cfc8d2673b79.png",
+    "static/media/person-2.png": "/thaole/static/media/person-2.6570129d3e8716b40235.png",
+    "static/media/person-1.png": "/thaole/static/media/person-1.fb6c3796b42f9ad950c7.png",
+    "static/media/brush.png": "/thaole/static/media/brush.85c9bab5ba2d7dcae1e3.png",
+    "index.html": "/thaole/index.html",
+    "main.ab84df86.css.map": "/thaole/static/css/main.ab84df86.css.map",
+    "main.9b509b7c.js.map": "/thaole/static/js/main.9b509b7c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab84df86.css",
+    "static/js/main.9b509b7c.js"
+  ]
+}
