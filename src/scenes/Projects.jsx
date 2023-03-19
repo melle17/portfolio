@@ -21,7 +21,7 @@ const Project = ({ title }) => {
   const projectTitle = title.split(" ").join("-").toLowerCase();
 
   return (
-    <motion.div variants={projectVariant} className="relative">
+    <motion.div variants={projectVariant} className="relative rounded-sm">
       <div className={overlayStyles}>
         <p className="text-2xl font-playfair">{title}</p>
         <p className="mt-7">
@@ -75,7 +75,7 @@ const Projects = () => {
           {/* ROW 1 */}
           <div
             className="flex justify-center text-center items-center p-10 bg-navy
-              max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
+              max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold rounded-sm"
           >
             ATTENTION TO DETAILS
           </div>
@@ -92,7 +92,7 @@ const Projects = () => {
           <Project title="Project 7" />
           <div
             className="flex justify-center text-center items-center p-10 bg-blue
-              max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
+              max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold rounded-sm"
           >
             SMOOTH MEANING DELIVERY
           </div>
