@@ -6,8 +6,10 @@ module.exports = {
     extend: {
       colors: {
         "deep-blue": "#010026",
+        white: "#fff",
         blue: "#2CBCE9",
         red: "#DC4492",
+        navy: "rgb(199 203 232)",
         yellow: "#FDCC49",
         grey: "#ededed",
         "dark-grey": "#757575",
@@ -19,6 +21,9 @@ module.exports = {
 
         "gradient-rainblue":
           "linear-gradient(90deg, #24CBFF 14.53%, #FC59FF 69.36%, #FFBD0C 117.73%)",
+
+        "gradient-navy":
+          "linear-gradient(to right, #5454bc, #1e1e5a)"
       }),
       fontFamily: {
         playfair: ["Playfair Display", "serif"],
@@ -30,6 +35,9 @@ module.exports = {
         person2: "url('./assets/person-2.png')",
         person3: "url('./assets/person-3.png')",
       },
+      borderRadius: {
+        "profile": "180px 180px 0 0"
+      }
     },
     screens: {
       xs: "480px",

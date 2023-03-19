@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const MySkills = () => {
   const isAboveLarge = useMediaQuery("(min-width: 1060px)");
   return (
-    <section id="skills" className="pt-10 pb-24">
+    <section id="skills" className="pb-24">
       {/* HEADER AND IMAGE SECTION */}
       <div className="md:flex md:justify-between md:gap-16 mt-32">
         <motion.div
@@ -20,12 +20,11 @@ const MySkills = () => {
           }}
         >
           <p className="font-playfair font-semibold text-4xl mb-5">
-            MY <span className="text-red">SKILLS</span>
+            My <span className="text-red">Skills</span>
           </p>
           <LineGradient width="w-1/3" />
           <p className="mt-10 mb-7">
-            Aliquam, amet dui feugiat facilisi dui. Aliquam aliquet integer ut
-            fames odio in at.
+            My skill set revolves around translating and editing languages. Here are some details:
           </p>
         </motion.div>
 
@@ -37,19 +36,19 @@ const MySkills = () => {
             >
               <img
                 alt="skills"
-                className="z-10"
-                src="assets/skills-image.png"
+                className="z-10 rounded-sm"
+                src="assets/bg-skill.png"
               />
             </div>
           ) : (
-            <img alt="skills" className="z-10" src="assets/skills-image.png" />
+            <img alt="skills" className="z-10 rounded-sm" src="assets/bg-skill.png" />
           )}
         </div>
       </div>
 
       {/* SKILLS */}
       <div className="md:flex md:justify-between mt-16 gap-32">
-        {/* EXPERIENCE */}
+        {/* ENGLISH */}
         <motion.div
           className="md:w-1/3 mt-10"
           initial="hidden"
@@ -63,21 +62,16 @@ const MySkills = () => {
         >
           <div className="relative h-32">
             <div className="z-10">
-              <p className="font-playfair font-semibold text-5xl">01</p>
+              <p className="font-playfair font-semibold text-5xl">English</p>
               <p className="font-playfair font-semibold text-3xl mt-3">
-                Experience
+                Ielts 7.5
               </p>
             </div>
-            <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
+            <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1] rounded-sm" />
           </div>
-          <p className="mt-5">
-            A auctor pharetra hendrerit mattis amet etiam interdum platea. Est
-            morbi porttitor scelerisque fermentum, sagittis non egestas. Amet
-            odio sit sagittis,
-          </p>
         </motion.div>
 
-        {/* INNOVATIVE */}
+        {/* CHINESE */}
         <motion.div
           className="md:w-1/3 mt-10"
           initial="hidden"
@@ -91,21 +85,15 @@ const MySkills = () => {
         >
           <div className="relative h-32">
             <div className="z-10">
-              <p className="font-playfair font-semibold text-5xl">02</p>
+              <p className="font-playfair font-semibold text-5xl">Chinese</p>
               <p className="font-playfair font-semibold text-3xl mt-3">
-                Innovative
+                HSK 6
               </p>
             </div>
-            <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
+            <div className="w-1/2 md:w-3/4 h-32 bg-navy absolute right-0 top-0 z-[-1] rounded-sm" />
           </div>
-          <p className="mt-5">
-            Urna, eget pulvinar dolor cursus volutpat dictum odio. Nec ultricies
-            amet in in neque nibh tortor. Libero sed pretium justo nulla blandit
-            nulla amet habitant iaculis. Iaculis in congue vitae sollicitudin
-            faucibus a
-          </p>
         </motion.div>
-        {/* IMAGINATIVE */}
+        {/* TRANSLATION */}
         <motion.div
           className="md:w-1/3 mt-10"
           initial="hidden"
@@ -119,19 +107,13 @@ const MySkills = () => {
         >
           <div className="relative h-32">
             <div className="z-10">
-              <p className="font-playfair font-semibold text-5xl">03</p>
+              <p className="font-playfair font-semibold text-5xl">Photoshop</p>
               <p className="font-playfair font-semibold text-3xl mt-3">
-                Imaginative
+                Sufficient
               </p>
             </div>
-            <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
+            <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1] rounded-sm" />
           </div>
-          <p className="mt-5">
-            Accumsan eu fringilla nisi, eget. Vitae, eget ut id proin arcu in
-            curabitur. Lectus libero, egestas enim aliquam quis felis amet.
-            Sagittis, amet netus fringilla netus lobortis odio sed platea.
-            Bibendum.
-          </p>
         </motion.div>
       </div>
     </section>

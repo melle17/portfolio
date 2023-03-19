@@ -19,14 +19,14 @@ const Landing = ({ setSelectedPage }) => {
           >
             <img
               alt="profile"
-              className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px]"
+              className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px] rounded-profile"
               src="assets/profile-image.png"
             />
           </div>
         ) : (
           <img
             alt="profile"
-            className="z-10 w-full max-w-[400px] md:max-w-[600px]"
+            className="z-10 w-full max-w-[400px] md:max-w-[600px] rounded-profile"
             src="assets/profile-image.png"
           />
         )}
@@ -46,18 +46,23 @@ const Landing = ({ setSelectedPage }) => {
           }}
         >
           <p className="text-6xl font-playfair z-10 text-center md:text-start">
-            Jane {""}
+            Melody {""}
             <span
               className="xs:relative xs:text-deep-blue xs:font-semibold z-20 xs:before:content-brush
               before:absolute before:-left-[25px] before:-top-[70px] before:z-[-1]"
             >
-              Esper
+              Le
             </span>
           </p>
 
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
-            Adipiscing arcu, in aliquam fringilla cursus. Elit arcu elementum
-            viverra malesuada sem ac faucibus dolor. Sagittis scelerisque.
+            A reading – writing enthusiast,
+            eager to learn, willing to take
+            challenges with good aesthetic
+            sense and a keen eye for detail.
+            Honest and open-minded, I am
+            able to work under pressure as
+            an individual or a team player.
           </p>
         </motion.div>
 
@@ -75,21 +80,21 @@ const Landing = ({ setSelectedPage }) => {
         >
           <AnchorLink
             className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold
-              hover:bg-blue hover:text-white transition duration-500"
+            hover:bg-blue hover:text-white transition duration-500"
             onClick={() => setSelectedPage("contact")}
             href="#contact"
           >
-            Contact Me
+            Let's talk.
           </AnchorLink>
-          <AnchorLink
-            className="rounded-r-sm bg-gradient-rainblue py-0.5 pr-0.5"
-            onClick={() => setSelectedPage("contact")}
-            href="#contact"
+          <a 
+            className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold
+            hover:bg-blue hover:text-white transition duration-500"
+            href="./assets/ThaoLe.pdf"
+            target="_blank"
+            download={"ThaoLe.pdf"}
           >
-            <div className="bg-deep-blue hover:text-red transition duration-500 w-full h-full flex items-center justify-center px-10 font-playfair">
-              Let's talk.
-            </div>
-          </AnchorLink>
+            Download CV
+          </a>
         </motion.div>
 
         <motion.div
