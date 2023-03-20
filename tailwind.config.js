@@ -6,12 +6,13 @@ module.exports = {
     extend: {
       colors: {
         "deep-blue": "#010026",
-        white: "#fff",
+        white: "whitesmoke",
         blue: "#2CBCE9",
-        red: "#DC4492",
+        // red: "#DC4492",
         navy: "rgb(199 203 232)",
         yellow: "#FDCC49",
         grey: "#ededed",
+        red: "#d12727",
         "dark-grey": "#757575",
         "opaque-black": "rgba(0,0,0,0.35)",
       },

@@ -45,24 +45,19 @@ const Landing = ({ setSelectedPage }) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <p className="text-6xl font-playfair z-10 text-center md:text-start">
-            Melody {""}
+          <p className="text-6xl font-playfair z-10 text-center md:text-start text-red">
+            Le Dang Phuong {""}
             <span
-              className="xs:relative xs:text-deep-blue xs:font-semibold z-20 xs:before:content-brush
-              before:absolute before:-left-[25px] before:-top-[70px] before:z-[-1]"
+              className="xs:relative z-20 text-red"
             >
-              Le
+              Thao
             </span>
           </p>
+          <span className="text-3xl">(Melody)</span>
 
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
-            A reading – writing enthusiast,
-            eager to learn, willing to take
-            challenges with good aesthetic
-            sense and a keen eye for detail.
-            Honest and open-minded, I am
-            able to work under pressure as
-            an individual or a team player.
+          Hi, I'm Phuong Thao, or Melody, a language enthusiast, eager to learn, willing to take challenges with good aesthetic sense and a keen eye for detail. <br /> <br />
+          I  have been doing translation work (Vietnamese, English, and Mandarin Chinese) for more than 5 years. Feel free to contact me via 
           </p>
         </motion.div>
 

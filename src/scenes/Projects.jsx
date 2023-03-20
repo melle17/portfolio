@@ -73,7 +73,7 @@ const Projects = () => {
         >
           {/* ROW 1 */}
           <div
-            className="flex justify-center text-center items-center p-10 bg-navy
+            className="flex justify-center text-center items-center p-10 bg-white
               max-w-[600px] max-h-[400px] text-2xl font-playfair font-semibold rounded-sm"
           >
             ATTENTION TO DETAILS

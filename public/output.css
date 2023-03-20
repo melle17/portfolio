@@ -895,7 +895,7 @@ video {
   background-color: rgb(117 117 117 / var(--tw-bg-opacity));
 }
 
-.bg-navy{
+.bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(220 68 146 / var(--tw-bg-opacity));
 }
@@ -1242,7 +1242,7 @@ body,
   content: var(--tw-content);
 }
 
-.hover\:bg-navy:hover{
+.hover\:bg-white:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(220 68 146 / var(--tw-bg-opacity));
 }

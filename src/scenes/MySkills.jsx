@@ -90,7 +90,7 @@ const MySkills = () => {
                 HSK 6
               </p>
             </div>
-            <div className="w-1/2 md:w-3/4 h-32 bg-navy absolute right-0 top-0 z-[-1] rounded-sm" />
+            <div className="w-1/2 md:w-3/4 h-32 bg-white absolute right-0 top-0 z-[-1] rounded-sm" />
           </div>
         </motion.div>
         {/* TRANSLATION */}
