@@ -50,10 +50,10 @@ const Landing = ({ setSelectedPage }) => {
             <span
               className="xs:relative z-20 text-red"
             >
-              Thao
+              Thao <span className="text-3xl text-center text-deep-blue">(Melody)</span>
             </span>
           </p>
-          <span className="text-3xl">(Melody)</span>
+          
 
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
           Hi, I'm Phuong Thao, or Melody, a language enthusiast, eager to learn, willing to take challenges with good aesthetic sense and a keen eye for detail. <br /> <br />

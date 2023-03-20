@@ -10,5 +10,5 @@ body,
 .app {
   height: 100%;
   background-color: #ffdede;
-  @apply text-black;
+  @apply text-deep-blue;
 }
