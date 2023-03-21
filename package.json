@@ -2,7 +2,7 @@
   "name": "mel-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://melle17.github.io",
+  "homepage": "https://melle17.github.io/thaole",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
