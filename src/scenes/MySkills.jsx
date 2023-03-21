@@ -9,22 +9,6 @@ import { sliderImages } from "../assets/data/data";
 const MySkills = () => {
   const isAboveLarge = useMediaQuery("(min-width: 1060px)");
 
-  // const [data, setData] = useState(sliderImages)
-
-  // const settings = {
-  //     dots: true,
-  //     fade:true,
-  //     ladyLoad:true,
-  //     infinite: true,
-  //     slidesToShow: 1,
-  //     slidesToScroll: 1,
-  //     autoplay: true,
-  //     speed: 500,
-  //     autoplaySpeed: 3000,
-  //     pauseOnHover: true,
-  //     cssEase: "linear",
-  // }
-
   return (
     <section id="skills" className="pb-24">
       {/* HEADER AND IMAGE SECTION */}
@@ -135,16 +119,6 @@ const MySkills = () => {
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1] rounded-sm" />
           </div>
-          {/* SLIDER
-          <div className="slider">
-            <Slider {...settings}>
-              {data.map((item) => (
-                <div className="photo" key={item.id}>
-                    <img src={item.cover} alt="" />
-                </div>
-              ))}
-            </Slider>
-          </div> */}
         </motion.div>
       </div>
     </section>
