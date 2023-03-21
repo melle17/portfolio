@@ -57,7 +57,7 @@ const Landing = ({ setSelectedPage }) => {
 
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
           Hi, I'm Phuong Thao, or Melody, a language enthusiast, eager to learn, willing to take challenges with good aesthetic sense and a keen eye for detail. <br /> <br />
-          I  have been doing translation work (Vietnamese, English, and Mandarin Chinese) for more than 5 years. Feel free to contact me via 
+          I  have been doing translation work (Vietnamese, English, and Mandarin Chinese) for more than 5 years. Feel free to contact me via mel.ledang33@gmail.com or (+84)707 887 521.
           </p>
         </motion.div>
 
