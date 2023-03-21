@@ -2,6 +2,7 @@ import Navbar from "./scenes/Navbar";
 import Landing from "./scenes/Landing";
 import DotGroup from "./scenes/DotGroup";
 import MySkills from "./scenes/MySkills";
+import Story from "./scenes/Story";
 import LineGradient from "./components/LineGradient";
 import Projects from "./scenes/Projects";
 import Contact from "./scenes/Contact";
@@ -57,6 +58,15 @@ function App() {
           onViewportEnter={() => setSelectedPage("skills")}
         >
           <MySkills />
+        </motion.div>
+      </div>
+      <div className="mx-auto">
+        <motion.div
+          margin="0 0 -200px 0"
+          amount="all"
+          onViewportEnter={() => setSelectedPage("story")}
+        >
+          <Story />
         </motion.div>
       </div>
       <LineGradient />

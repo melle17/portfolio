@@ -12,3 +12,25 @@ body,
   background-color: #ffdede;
   @apply text-deep-blue;
 }
+img {
+  image-rendering: -webkit-optimize-contrast;
+}
+.slick-slider {
+  box-shadow: 0px 0px 12px 0px rgb(170, 81, 99);
+}
+.slick-arrow {
+  display: none !important;
+}
+.slick-slider .slick-slide img {
+  max-height: 800px;
+  object-fit: cover;
+  width: 100%;
+}
+.slick-slider .slick-slide div {
+  max-height: 850px;
+}
+.slick-slider .slick-slide img {
+  max-height: 850px;
+  object-fit: cover;
+  width: 100%;
+}
