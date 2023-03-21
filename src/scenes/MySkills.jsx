@@ -1,10 +1,7 @@
 import LineGradient from "../components/LineGradient";
 import useMediaQuery from "../hooks/useMediaQuery";
-import { useState } from "react";
 import { motion } from "framer-motion";
 import React from "react";
-import Slider from "react-slick";
-import { sliderImages } from "../assets/data/data";
 
 const MySkills = () => {
   const isAboveLarge = useMediaQuery("(min-width: 1060px)");
