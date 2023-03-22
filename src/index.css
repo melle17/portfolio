@@ -21,13 +21,11 @@ img {
 .slick-arrow {
   display: none !important;
 }
-.slick-slider .slick-slide img {
-  max-height: 800px;
-  object-fit: cover;
-  width: 100%;
-}
 .slick-slider .slick-slide div {
   max-height: 850px;
+}
+.slick-slider .slick-slide div .photo {
+  height: inherit;
 }
 .slick-slider .slick-slide img {
   max-height: 850px;

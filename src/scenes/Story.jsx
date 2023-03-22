@@ -36,12 +36,13 @@ const Story = () => {
                 }}
             >
                 <p className="text-deep-blue text-center">Here are some of my photos.</p>
-                <p className="text-deep-blue text-center mb-24">Hope you enjoy :)</p>
+                <p className="text-deep-blue text-center mb-2">Hope you enjoy :)</p>
+                <div className="flex justify-center">
+                    <div className="flex justify-center text-center h-0.5 w-1/5 bg-gradient-rainblue mb-24"></div>
+                </div>
                 <Slider {...settings}>
                     {data.map((item) => (
-                    <div className="photo" key={item.id}>
-                        <img src={item.cover} alt="item.cover" />
-                    </div>
+                        <img src={item.cover} key={item.id} alt="" className="photo"/>
                     ))}
                 </Slider>
 
