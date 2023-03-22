@@ -10,16 +10,33 @@ const Story = () => {
     const [data, setData] = useState(sliderImages)
     const settings = {
         dots: true,
-        fade:true,
+        fade:false,
         ladyLoad:true,
         infinite: true,
-        slidesToShow: 1,
+        slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
         speed: 500,
         autoplaySpeed: 3000,
         pauseOnHover: true,
         cssEase: "linear",
+        responsive: [
+            {
+              breakpoint: 414,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: true,
+                ladyLoad:true,
+                autoplay: true,
+                speed: 500,
+                autoplaySpeed: 3000,
+                pauseOnHover: true,
+                cssEase: "linear"
+              }
+            },
+        ]
     }
     
     return (
