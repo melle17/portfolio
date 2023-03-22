@@ -35,7 +35,7 @@ const Story = () => {
                     visible: { opacity: 1, y: 0 },
                 }}
             >
-                <p className="text-deep-blue text-center">Here are some of my photos.</p>
+                <p className="text-deep-blue text-center">I create my own YouTube channel to share my favorite Chinese songs and their lyrics as well as fulfill my passion for typography.</p>
                 <p className="text-deep-blue text-center mb-2">Hope you enjoy :)</p>
                 <div className="flex justify-center">
                     <div className="flex justify-center text-center h-0.5 w-1/5 bg-gradient-rainblue mb-24"></div>
