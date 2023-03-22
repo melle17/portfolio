@@ -54,5 +54,5 @@ img {
 .slick-slider .slick-slide img {
   max-height: 850px;
   object-fit: cover;
-  width: 33.33% !important;
+  width: 100%;
 }
