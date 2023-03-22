@@ -35,8 +35,8 @@ const Story = () => {
                     visible: { opacity: 1, y: 0 },
                 }}
             >
-                <p className="text-deep-blue text-2xl font-playfair text-center mb-5">Here are some of my photos.</p>
-                <p className="text-deep-blue text-2xl font-playfair text-center mb-24">Hope you enjoy :)</p>
+                <p className="text-deep-blue text-center">Here are some of my photos.</p>
+                <p className="text-deep-blue text-center mb-24">Hope you enjoy :)</p>
                 <Slider {...settings}>
                     {data.map((item) => (
                     <div className="photo" key={item.id}>
