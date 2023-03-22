@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/thaole/static/css/main.679d1965.css",
-    "main.js": "/thaole/static/js/main.8ea08d65.js",
+    "main.css": "/thaole/static/css/main.51429370.css",
+    "main.js": "/thaole/static/js/main.80ab6a3d.js",
     "static/media/person-3.png": "/thaole/static/media/person-3.5dd0b714cfc8d2673b79.png",
     "static/media/person-2.png": "/thaole/static/media/person-2.6570129d3e8716b40235.png",
     "static/media/person-1.png": "/thaole/static/media/person-1.fb6c3796b42f9ad950c7.png",
@@ -10,11 +10,11 @@
     "static/media/slick.ttf": "/thaole/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/thaole/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/thaole/index.html",
-    "main.679d1965.css.map": "/thaole/static/css/main.679d1965.css.map",
-    "main.8ea08d65.js.map": "/thaole/static/js/main.8ea08d65.js.map"
+    "main.51429370.css.map": "/thaole/static/css/main.51429370.css.map",
+    "main.80ab6a3d.js.map": "/thaole/static/js/main.80ab6a3d.js.map"
   },
   "entrypoints": [
-    "static/css/main.679d1965.css",
-    "static/js/main.8ea08d65.js"
+    "static/css/main.51429370.css",
+    "static/js/main.80ab6a3d.js"
   ]
 }
