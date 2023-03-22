@@ -37,7 +37,8 @@ module.exports = {
         person3: "url('./assets/person-3.png')",
       },
       borderRadius: {
-        "profile": "180px 180px 0 0"
+        "profile": "230px 230px 0 0",
+        "icon": "30px"
       }
     },
     screens: {

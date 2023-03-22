@@ -45,12 +45,13 @@ const Landing = ({ setSelectedPage }) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <p className="text-6xl font-playfair z-10 text-center md:text-start text-red">
+          <p className="text-4xl md:text-6xl font-playfair z-10 text-center md:text-start text-red">
             Le Dang Phuong {""}
             <span
               className="xs:relative z-20 text-red"
             >
-              Thao <span className="text-3xl text-center text-deep-blue">(Melody)</span>
+              Thao <br />
+              <span className="text-3xl text-center text-deep-blue">(Melody)</span>
             </span>
           </p>
           

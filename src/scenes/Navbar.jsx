@@ -25,8 +25,8 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
   return (
     <nav className={`${navbarBackground} z-40 w-full fixed top-0 py-6`}>
       <div className="flex items-center justify-between mx-auto w-5/6">
-        <h4 className="font-playfair text-3xl font-bold">Mel</h4>
-
+        {/* <h4 className="font-playfair text-3xl font-bold">Mel</h4> */}
+        <img src="logo192.png" alt="" className="w-10 rounded-icon"/>
         {/* DESKTOP NAV */}
         {isDesktop ? (
           <div className="flex justify-between gap-16 font-opensans text-sm font-semibold">
@@ -53,10 +53,10 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
           </div>
         ) : (
           <button
-            className="rounded-full bg-white p-2"
+            className="rounded-full bg-white p-2 "
             onClick={() => setIsMenuToggled(!isMenuToggled)}
           >
-            <img alt="menu-icon" src="assets/menu-icon.svg" />
+            <img alt="menu-icon" src="assets/menu-icon.svg" className="invert-[1]"/>
           </button>
         )}
 
@@ -66,7 +66,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
             {/* CLOSE ICON */}
             <div className="flex justify-end p-12">
               <button onClick={() => setIsMenuToggled(!isMenuToggled)}>
-                <img alt="close-icon" src="assets/close-icon.svg" />
+                <img alt="close-icon" src="assets/close-icon.svg" className="invert-[1]"/>
               </button>
             </div>
 
